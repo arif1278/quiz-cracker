@@ -14,14 +14,18 @@ const Home = () => {
         <div>
 
 
-            <div className=" flex flex-col items-center  py-16 pb-24 text-center lg:pb-56 md:py-32 md:px-10 lg:px-2 text-gray-900">
-                <h1 className="lg:text-7xl font-bold leading-none text-6xl xl:max-w-6xl text-gray-800">
-                    Go out for  <span className=" text-orange-700 "> knowledge and service</span>
-                </h1>
-                <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-gray-900">
-                    More and more practice will bring better things.
-                    So work should be done more than words. There is no alternative to work.
-                </p>
+            <div className=" flex flex-col items-center  py-16 pb-24 text-center lg:pb-56 mt-6 md:py-32 md:px-10 lg:px-2 text-gray-900">
+
+                <div className=" h-80 bg-[url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">
+
+                    <h1 className="lg:text-7xl font-bold leading-none text-6xl xl:max-w-6xl text-gray-200">
+                        Go out for  <span className=" text-orange-700 "> knowledge and service</span>
+                    </h1>
+                    <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-gray-900">
+                        More and more practice will bring better things.
+                        So work should be done more than words. There is no alternative to work.
+                    </p>
+                </div>
                 <div className="flex flex-wrap justify-center">
                     <Link to="/quiz">
                         <button
