@@ -1,12 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import About from '../components/About/About'
 import Blog from '../components/Blog/Blog'
 import ErrorPage from '../components/Home/ErrorPage/ErrorPage'
 import Home from '../components/Home/Home'
-
 import QuizQuestions from '../components/QuizQuestions/QuizQuestions'
-
-
 import Root from '../components/Root/Root'
 import Statistics from '../components/Statistics/Statistics'
 import { cartData, dynamicCartData } from '../components/Loader/Loader'
@@ -57,10 +53,7 @@ const router = createBrowserRouter([
                 path: '/blog',
                 element: <Blog></Blog>
             },
-            {
-                path: '/about',
-                element: <About></About>
-            },
+
             {
                 path: '/blog1',
                 element: <Blog1></Blog1>

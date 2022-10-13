@@ -71,7 +71,7 @@ const Blog = () => {
                         hover:text-primary
                         "
                                     >
-                                        How is the Stands of react router?
+                                        What is the purpose of react router ?
                                     </Link>
                                 </h3>
                                 <p className="text-base text-body-color">
@@ -122,7 +122,7 @@ const Blog = () => {
                         hover:text-primary
                         "
                                     >
-                                        Hows to work context api?
+                                        How does context api works ?
                                     </Link>
                                 </h3>
                                 <p className="text-base text-body-color">

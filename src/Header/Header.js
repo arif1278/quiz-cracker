@@ -68,17 +68,7 @@ const Header = () => {
                             </div>
                         </Link>
                     </li>
-                    <li>
 
-                        <Link
-                            to='/about'
-                            aria-label='About Us'
-                            title='About Us'
-                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 text-2xl text-bold '
-                        >
-                            About Us
-                        </Link>
-                    </li>
                 </ul>
                 <div className='lg:hidden'>
                     <button
@@ -186,21 +176,6 @@ const Header = () => {
 
                                                     </p>
                                                 </div>
-                                            </Link>
-                                        </li>
-
-
-
-
-                                        <li>
-
-                                            <Link
-                                                to='/about'
-                                                aria-label='About Us'
-                                                title='About Us'
-                                                className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                            >
-                                                About Us
                                             </Link>
                                         </li>
                                     </ul>
