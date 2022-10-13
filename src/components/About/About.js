@@ -12,10 +12,11 @@ const About = () => {
                         <p className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire,</p>
                     </div>
                     <div className="w-full lg:w-6/12">
-                        <img className="lg:block hidden w-full" src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png" alt="people discussing on board" />
+                        <img className="lg:block hidden w-full" src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjIxMWJhdGNoMTAtbWludHktMDM0LWJ1c2luZXNzXzIuanBn.jpg?s=M3vq52YSNKpf48yF8ZX5VwSAYRs00j3bV0sY4n1rXGE" alt="people discussing" />
                         <img className="lg:hidden sm:block hidden w-full" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
                         <img className="sm:hidden block w-full" src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png" alt="people discussing on board" />
                     </div>
+
                 </div>
 
                 <div className="relative mt-24">

@@ -5,12 +5,12 @@ const QuizCard = ({ course }) => {
 
     const { id, logo, name, total } = course;
     return (
-        <div className='my-16 mr-0'>
-            <div className="rounded-md shadow-md lg:w-72 sm:w-full dark:bg-gray-900 bg-green-50 dark:text-slate-500">
+        <div className=' my-16 mr-0'>
+            <div className="rounded-md shadow-md lg:w-50 sm:w-full dark:bg-gray-900 bg-green-50 dark:text-slate-900">
 
-                <img src={logo} alt="" className="object-cover border object-center w-full h-72 bg-slate-500  dark:bg-gray-500" />
+                <img src={logo} alt="" className="object-cover border object-center w-full h-75 bg-slate-500  dark:bg-gray-500" />
                 <div className="p-3">
-                    <h1 className='lg:text-3xl text-bold my-4 '> Topics: {name}</h1>
+                    <h1 className='lg:text-3xl text-bold my-4 '>  {name}</h1>
                     <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-3">
                             <button type="button" title="Like post" className="flex items-center justify-center">

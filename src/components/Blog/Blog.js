@@ -8,24 +8,21 @@ const Blog = () => {
                 <div className="flex flex-wrap justify-center -mx-4">
                     <div className="w-full px-4">
                         <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-                            <span className="font-semibold text-lg text-primary mb-2 block">
-                                Our Blogs
-                            </span>
+
                             <h2
                                 className="
                   font-bold
                   text-3xl
                   sm:text-4xl
                   md:text-[40px]
-                  text-dark
+                  text-orange-500
                   mb-4
                   "
                             >
-                                Our Recent Blog
+                                Our Blogs
                             </h2>
                             <p className="text-base text-body-color">
-                                There are many variations of passages of Lorem Ipsum available
-                                but the majority have suffered alteration in some form.
+                                Great Blog attract an audience. But Great content makes them stay!
                             </p>
                         </div>
                     </div>
@@ -35,7 +32,7 @@ const Blog = () => {
                         <div className="max-w-[370px] mx-auto mb-10">
                             <div className="rounded overflow-hidden mb-8">
                                 <img
-                                    src="https://img.freepik.com/free-vector/javascript-frameworks-concept-illustration_114360-4699.jpg?w=740&t=st=1665516210~exp=1665516810~hmac=85318f796231f540a55591f8e16725618e4dd8c84db2f4594c40ce071dbe52b6"
+                                    src="https://img.freepik.com/free-vector/react-native-mobile-app-abstract-concept-illustration-cross-platform-native-mobile-app-development-framework-javascript-library-user-interface-operating-system_335657-3350.jpg"
                                     alt="image"
                                     className="w-full"
                                 />
@@ -74,11 +71,11 @@ const Blog = () => {
                         hover:text-primary
                         "
                                     >
-                                        What is the purpose of react router?
+                                        How is the Stands of react router?
                                     </Link>
                                 </h3>
                                 <p className="text-base text-body-color">
-                                    React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL...
+                                    ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route
                                 </p>
                             </div>
                         </div>
@@ -87,7 +84,7 @@ const Blog = () => {
                         <div className="max-w-[370px] mx-auto mb-10">
                             <div className="rounded overflow-hidden mb-8">
                                 <img
-                                    src="https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?w=740&t=st=1665516888~exp=1665517488~hmac=f856df244607f8e5c907d3c313aa05739817c89f94d5adfe5298132669ce61b0"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQhP0WP7o5CjAT4rWOs04MzzKDLxTeI2A6dQ&usqp=CAU"
                                     alt="image"
                                     className="w-full"
                                 />
@@ -125,12 +122,12 @@ const Blog = () => {
                         hover:text-primary
                         "
                                     >
-                                        How dose context api work?
+                                        Hows to work context api?
                                     </Link>
                                 </h3>
                                 <p className="text-base text-body-color">
 
-                                    The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to...
+                                    The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
                                 </p>
                             </div>
                         </div>
@@ -139,7 +136,7 @@ const Blog = () => {
                         <div className="max-w-[370px] mx-auto mb-10">
                             <div className="rounded overflow-hidden mb-8">
                                 <img
-                                    src="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=740&t=st=1665516912~exp=1665517512~hmac=26203cdace1c4ab509ac56241453491263fce7c53e79f6f99e9742eed95864dc"
+                                    src="https://mobisoftinfotech.com/resources/wp-content/uploads/2022/03/og-Cordova-vs-React-Native.png"
                                     alt="image"
                                     className="w-full"
                                 />
@@ -181,7 +178,7 @@ const Blog = () => {
                                     </Link>
                                 </h3>
                                 <p className="text-base text-body-color">
-                                    How does useRef hook work? The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated...
+                                    useRef returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.
                                 </p>
                             </div>
                         </div>
