@@ -1,8 +1,10 @@
-import Header from '../Header/Header'
+
 
 import { Outlet, useLoaderData } from 'react-router-dom'
 import { createContext } from 'react'
-// import Fixheader from '../FixHeader/Fixheader'
+import Header from '../../Header/Header'
+
+
 
 export const CartData = createContext([])
 
@@ -13,8 +15,8 @@ const Root = () => {
 
         <div className="bg-gray-100">
             <CartData.Provider value={card}>
-                <Header />
-                <Outlet />
+                <Header></Header>
+                <Outlet></Outlet>
             </CartData.Provider>
         </div>
     )

@@ -1,18 +1,19 @@
 import { createBrowserRouter } from 'react-router-dom'
 import About from '../components/About/About'
 import Blog from '../components/Blog/Blog'
-import ErrorPage from '../components/ErrorPage/ErrorPage'
+import ErrorPage from '../components/Home/ErrorPage/ErrorPage'
 import Home from '../components/Home/Home'
-import Quiz from '../components/Quiz/Quiz'
+
 import QuizQuestions from '../components/QuizQuestions/QuizQuestions'
 
 
 import Root from '../components/Root/Root'
 import Statistics from '../components/Statistics/Statistics'
-import { cartData, dynamicCartData } from '../components/Loader/loader'
+import { cartData, dynamicCartData } from '../components/Loader/Loader'
 import Blog1 from '../components/Blog/Blog1'
 import Blog2 from '../components/Blog/Blog2'
 import Blog3 from '../components/Blog/Blog3'
+import Quiz from '../Quiz/Quiz'
 
 
 

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import QuizCard from '../components/QuizCard/QuizCard';
 
-import QuizCard from '../QuizCard/QuizCard';
+
 
 const Quiz = () => {
     const quiz = useLoaderData();
@@ -11,7 +12,9 @@ const Quiz = () => {
             {
                 quiz.data.map(course => <QuizCard
                     course={course} key={course.id}
-                ></QuizCard>)
+                >
+
+                </QuizCard>)
             }
         </div>
     );

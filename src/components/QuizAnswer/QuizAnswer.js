@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
 const QuizAnswer = ({ questions }) => {
 
@@ -11,10 +11,12 @@ const QuizAnswer = ({ questions }) => {
         if (correctAnswer === props) {
             Swal.fire({
                 icon: 'success',
-                title: 'Greate...',
-                text: 'Correct answer!',
-
+                title: 'right',
+                text: 'right answer'
             })
+
+
+
         }
         else {
             Swal.fire({
