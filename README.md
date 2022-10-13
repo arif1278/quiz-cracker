@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+1.  project name: quiz-monstar-app
+2.  project live site: ( https://strong-palmier-06aa2d.netlify.app/ )
+
+.The Quiz-Monster-App website is basically dynamically routed.
+.Through this site we can know about React Route DOM.
+.Quiz apps can be created through quizzes on various topics on this site
+.Through statistics we can do extensive work of purification
